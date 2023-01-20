@@ -26,10 +26,11 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// Make variable called name and set it to Dane
+// Created a conditional if statement and set it exactly = to 'Mary'
+// Check if the name is equal to 'Mary'
+// If it is its 'Hi, Mary!'
+// If it is not it is 'How do you do?'
 
 //CODE
 /*
@@ -45,9 +46,11 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
+// introduce variable 'secret' and set variable 'code' equal to 123. 
+// If statement sets code equal value and type to 123, returns 'secret' as 
+//'super' and code equals.
+// Second if statement checks if code is greater than 250, it will return 
+// secret' as duper
 //
 
 //CODE
@@ -70,10 +73,12 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// Three variables 'isStudent=true'; age=34; zip=55407
+// If statement true if zip is greater than 80000, then console.log ' You're a student on the est coast!'
+// If false it goes to second conditional 'isStudent false' or age less than 30. Console.log is 
+//'What are your hobbies?'
+//If 'isStudent===true' and no other variables match. Console.log'Welcome to Prime!'
+// If none of the variables match then statement console.log 'How about the weather?'
 
 //CODE
 /*
@@ -92,9 +97,6 @@ if (isStudent === true && zip > 80000 ) {
 }
 
 */
-
-
-
 
 // REVERSE
 // Now, for questions 4-6, we'll give you a description and some code. 
@@ -130,11 +132,18 @@ if (number >= 2) {
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
 /*
+
+// FIX- colorOne should be set to 'blue'
 let colorOne = 'red';
+
+//FIX colorTwo should be set to 'red'
 let colorTwo = 'blue';
+
 let mix = true;
 
 if (mix === true) {
+
+  //FIX- mix is true. Console.log to 'Purple'
   colorOne = 'purple';
 }
 */
@@ -145,8 +154,11 @@ if (mix === true) {
 
 /*
 let temp = 40;
+
+// FIX- Not a variable. Constant number. Change to let time = 4
 const time = 4;
 
+//FIX- code is a 'either' statment. Change to '&&' where both sides must be true
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
@@ -158,8 +170,11 @@ if (temp > 39 || time >= 4) {
 
 /*
 let age = 21;
+
+//FIX- constant-not a variable. Change to 'let minAge = 21. 
 const minAge = 21;
 
+//FIX- '=' to age in 'if' statement. Remove '=' from 'if' statment. 
 if(minAge <= age) {
   console.log('no entry');
 } else {
